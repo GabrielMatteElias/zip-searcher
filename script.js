@@ -53,5 +53,4 @@ btnSearch.addEventListener('click', async function (e) {
 
     paragrafoZipResponse.innerText = `${zipCodeResponse.logradouro} - ${zipCodeResponse.bairro}. CEP: ${zipValue}. ${zipCodeResponse.localidade} - ${zipCodeResponse.uf}`
     document.body.style.backgroundImage = 'url(' + linkImg + ')';
-
 })
